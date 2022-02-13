@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&family=Roboto+Slab:wght@300;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1203px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+:root {
+  --theme-color: #131313;
+  --main-gray: #999999;
+  --black: #131313;
+  --white: #ffffff;
+  --heading-font: "Roberto slab", sans-serif;
+  --content-font: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+}
+
+body {
+  font-family: var(--content-font);
+  background-color: #eee;
+}

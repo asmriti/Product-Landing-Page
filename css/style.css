@@ -1,0 +1,11 @@
+.center-button{
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+}
+
+nav ul li{
+    list-style: none;
+}
