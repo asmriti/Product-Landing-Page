@@ -19,7 +19,7 @@ section form {
   text-align: center;
 }
 
-section button {
+section .center-button button{
   text-align: center;
   padding: 2px;
   text-transform: uppercase;

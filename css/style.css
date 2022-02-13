@@ -1,11 +1,20 @@
-.center-button{
-    text-align: center;
+.center-button {
+  text-align: center;
 }
 
-button{
-    cursor: pointer;
+button {
+  cursor: pointer;
 }
 
-nav ul li{
-    list-style: none;
+ul li {
+  list-style: none;
+}
+
+img{
+    max-width:100%;
+    width: 100%;
+}
+
+iframe{
+    width:100%;
 }
