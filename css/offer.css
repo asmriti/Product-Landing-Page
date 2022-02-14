@@ -8,14 +8,15 @@
   margin-top: 5px;
 }
 
-.video{
-    margin-top: 35px;
+.video {
+  margin-top: 35px;
 }
 
 @media (max-width: 420px) {
   .offer-icons {
     display: none;
   }
+
   .offer-container h3 {
     text-align: center;
   }
@@ -26,12 +27,12 @@
 }
 
 @media (min-width: 768px) {
-  .offer li {
+  .offer-container li {
     display: flex;
-    justify-content: space-between;
   }
-  .video {
-    width: 50%;
+
+  .offer-icons {
+    width: 115px;
   }
 
   .offer-container ul li {

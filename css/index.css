@@ -4,3 +4,11 @@
 @import url("offer.css");
 @import url("pricing.css");
 @import url("footer.css");
+
+.flex{
+  display: flex;
+}
+
+@media screen {
+  
+}

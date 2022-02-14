@@ -34,3 +34,7 @@ body {
   font-family: var(--content-font);
   background-color: #eee;
 }
+
+a {
+  color: var(--black);
+}

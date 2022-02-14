@@ -1,20 +1,19 @@
-footer{
-    background-color: #ddd;
-    margin-top: 28px;
+footer {
+  background-color: #ddd;
+  margin-top: 28px;
 }
 
-footer ul{
-    display: flex;
-    justify-content: flex-end;
-   
+footer ul {
+  display: flex;
+  justify-content: flex-end;
 }
 
-footer ul li{
-    padding: 5px;
-    font-size: 15px;
-    font-weight:bold;
+footer ul li {
+  padding: 5px;
+  font-size: 15px;
+  font-weight: bold;
 }
 
-.copyright{
-    text-align: end;
+.copyright {
+  text-align: end;
 }

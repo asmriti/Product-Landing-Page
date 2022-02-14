@@ -6,9 +6,24 @@ nav ul {
   text-align: center;
 }
 
+nav ul li a {
+  padding: 10px;
+}
+
+nav ul li {
+  margin: 10px;
+}
+
+nav ul li a:hover {
+  color: #f1c40f;
+  background-color: #8d7a7a;
+  cursor: pointer;
+}
+
 section h2 {
   text-align: center;
   padding: 10px;
+  margin: 20px 0px;
 }
 
 section form input {
@@ -19,9 +34,9 @@ section form {
   text-align: center;
 }
 
-section .center-button button{
+section .center-button button {
   text-align: center;
-  padding: 2px;
+  padding: 2px 10px;
   text-transform: uppercase;
   background-color: #f1c40f;
   border: transparent;
@@ -30,20 +45,26 @@ section .center-button button{
   font-weight: 900;
 }
 
-nav ul li:hover {
-  color: #f1c40f;
-  background-color: #8d7a7a;
-}
-
-@media (min-width: 768px) {
-  .nav-bar {
+@media screen and (min-width: 768px) {
+  .navbar-flex-wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 15px;
   }
 
-  .nav-bar nav {
-    margin-top: 11px;
+  header {
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eee;
+  }
+
+  section h2{
+    margin-top:7em;
   }
 
   nav ul li {

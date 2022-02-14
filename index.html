@@ -12,49 +12,47 @@
     <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
-    <div class="main-container-wrapper">
-      <!--Main-Container-->
-      <div class="container">
-        <!--Container-->
-        <div class="nav-bar">
-          <!--nav-bar-->
-
+    <div class="page-wrapper">
+      <header id="header">
+        <div class="container  navbar-flex-wrapper">
           <div class="logo">
-            <!--logo-->
             <img
               id="header-img"
               src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
               alt="original trombones logo"
             />
           </div>
-          <!--logo-->
-          <nav>
+
+          <nav id="nav-bar">
             <ul>
-              <li><a href="#"></a>Features</li>
-              <li><a href="#"></a>How it works</li>
-              <li><a href="#"></a>Pricing</li>
+              <li><a href="#offer" class="nav-link">Offer</a></li>
+              <li>
+                <a href="#video-container" class="nav-link">How it works</a>
+              </li>
+              <li><a href="#pricing" class="nav-link">Pricing</a></li>
             </ul>
           </nav>
         </div>
-        <!--nav-bar-->
-        <section>
+      </header>
+
+      <section id="main">
+        <div class="container">
           <h2>Handcrafted, home-made masterpieces</h2>
-          <form action="#">
+          <form action="https://www.freecodecamp.com/email-submit" id="form">
             <input
               type="email"
               id="email"
-              name="phone"
+              name="email"
               placeholder="Enter your email address"
             />
+            <div class="center-button">
+              <button type="submit" id="submit">Get Started</button>
+            </div>
           </form>
-          <div class="center-button">
-            <button>Get Started</button>
-          </div>
-        </section>
-      </div>
-      <!--Container-->
+        </div>
+      </section>
 
-      <section class="offer">
+      <section class="offer" id="offer">
         <div class="container">
           <!--Container-->
           <div class="offer-container">
@@ -108,11 +106,13 @@
           <!--offer-container-->
         </div>
         <!--container-->
+      </section>
 
-        <div class="video">
+      <section class="video" id="video-container">
+        <div class="container">
           <iframe
             id="video"
-            height="315"
+            height="400"
             src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
             frameborder="0"
             allowfullscreen=""
@@ -120,7 +120,7 @@
         </div>
       </section>
 
-      <section class="pricing">
+      <section class="pricing" id="pricing">
         <div class="container costs-flex-wrapper">
           <div class="costs">
             <div class="header">
@@ -178,12 +178,11 @@
             <li>Terms</li>
             <li>Contact</li>
           </ul>
-          <div class="copyright">
-            Copyright 2016, Original Trombones
-          </div>
+          <div class="copyright">Copyright 2016, Original Trombones</div>
         </div>
       </footer>
+
+      <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     </div>
-    <!--Main-Container-->
   </body>
 </html>
